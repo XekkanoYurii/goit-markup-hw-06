@@ -211,7 +211,7 @@
           <ul class="ul-our-team">
             <li class="list-our-team">
               <img
-                srcset="./images/1x.jpg 1x, ./images/2x.jpg 2x"
+                srcset="./images/p1s.jpg 1x, ./images/img-p1@2x.jpg 2x"
                 src="./images/p1s.jpg"
                 alt="photo1"
                 width="264"
@@ -253,7 +253,7 @@
             </li>
             <li class="list-our-team">
               <img
-                srcset="./images/1x.jpg 1x, ./images/2x.jpg 2x"
+                srcset="./images/img2s.jpg 1x, ./images/img-p2@2x.jpg 2x"
                 src="./images/img2s.jpg"
                 alt="photo2"
                 width="264"
@@ -295,7 +295,7 @@
             </li>
             <li class="list-our-team">
               <img
-                srcset="./images/1x.jpg 1x, ./images/2x.jpg 2x"
+                srcset="./images/img3s.jpg 1x, ./images/img-p3@2x.jpg 2x"
                 src="./images/img3s.jpg"
                 alt="photo3"
                 width="264"
@@ -337,7 +337,7 @@
             </li>
             <li class="list-our-team">
               <img
-                srcset="./images/1x.jpg 1x, ./images/2x.jpg 2x"
+                srcset="./images/img4s.jpg 1x, ./images/img-p4@2x.jpg 2x"
                 src="./images/img4s.jpg"
                 alt="photo4"
                 width="264"
@@ -388,11 +388,35 @@
           <ul class="ul-ourportfolio">
             <li class="li-ourportfolio">
               <div class="bestellers-wrapper">
-                <img
-                  src="./images/hmtwo/img-1.jpg"
-                  alt="photo5"
-                  width="360"
-                  height="300" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f1_desktop@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f1_desktop@2x_result.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f1_tablet@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f1_tablet@2x_result.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f1_mobile@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f1_mobile@2x_result.jpg 2x
+                    " />
+                  <img
+                    src="./images/hmtwo/imgimg-f1_mobile@1x_result.jpg"
+                    alt="photo5"
+                    width="360"
+                    height="300" />
+                </picture>
+
                 <p class="overlay">
                   - 14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -412,32 +436,30 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="
-                      ./images/products/img-1_desk@1x.png 1x,
-                      ./images/products/img-1_desk@2x.png 2x
+                      ./images/hmtwo/imgimg-f2_desktop@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f2_desktop@1x_result.jpg 2x
                     " />
                   <!-- Tablet screen -->
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/products/img-1_tab@1x.png 1x,
-                      ./images/products/img-1_tab@2x.png 2x
+                      ./images/hmtwo/imgimg-f2_tablet@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f2_tablet@2x_result.jpg 2x
                     " />
                   <!-- Mobile screen -->
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/products/img-1_mob@1x.png 1x,
-                      ./images/products/img-1_mob@2x.png 2x
+                      ./images/hmtwo/imgimg-f2_mobile@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f2_mobile@2x_result.jpg 2x
                     " />
                   <img
-                    src="./images/products/img-1_mob.png"
-                    alt="Dark chocolate with orange" />
+                    src="./images/hmtwo/imgimg-f2_mobile@1x_result.jpg"
+                    alt="photo6"
+                    width="360"
+                    height="300" />
                 </picture>
-                <img
-                  src="./images/hmtwo/img-2.jpg"
-                  alt="photo6"
-                  width="360"
-                  height="300" />
+
                 <p class="overlay">
                   - 14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -452,11 +474,35 @@
             </li>
             <li class="li-ourportfolio">
               <div class="bestellers-wrapper">
-                <img
-                  src="./images/hmtwo/img-3.jpg"
-                  alt="photo7"
-                  width="360"
-                  height="300" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f3_desktop@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f3_desktop@2x_result.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f3_tablet@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f3_tablet@2x_result.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f3_mobile@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f3_mobile@2x_result.jpg 2x
+                    " />
+                  <img
+                    src="./images/hmtwo/imgimg-f3_mobile@1x_result.jpg"
+                    alt="photo7"
+                    width="360"
+                    height="300" />
+                </picture>
+
                 <p class="overlay">
                   - 14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -471,11 +517,35 @@
             </li>
             <li class="li-ourportfolio">
               <div class="bestellers-wrapper">
-                <img
-                  src="./images/hmtwo/img-4.jpg"
-                  alt="photo8"
-                  width="360"
-                  height="300" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f4_desktop@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f4_desktop@2x_result.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f4_tablet@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f4_tablet@2x_result.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f4_mobile@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f4_mobile@2x_result.jpg 2x
+                    " />
+                  <img
+                    src="./images/hmtwo/imgimg-f4_mobile@1x_result.jpg"
+                    alt="photo8"
+                    width="360"
+                    height="300" />
+                </picture>
+
                 <p class="overlay">
                   - 14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -490,11 +560,35 @@
             </li>
             <li class="li-ourportfolio">
               <div class="bestellers-wrapper">
-                <img
-                  src="./images/hmtwo/img-5.jpg"
-                  alt="photo9"
-                  width="360"
-                  height="300" />
+                <picture
+                  ><!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f5_desktop@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f5_desktop@2x_result.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f5_tablet@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f5_tablet@2x_result.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f5_mobile@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f5_mobile@2x_result.jpg 2x
+                    " />
+                  <img
+                    src="./images/hmtwo/imgimg-f5_mobile@1x_result.jpg"
+                    alt="photo9"
+                    width="360"
+                    height="300" />
+                </picture>
+
                 <p class="overlay">
                   - 14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
@@ -509,11 +603,35 @@
             </li>
             <li class="li-ourportfolio">
               <div class="bestellers-wrapper">
-                <img
-                  src="./images/hmtwo/img-6.jpg"
-                  alt="photo10"
-                  width="360"
-                  height="300" />
+                <picture>
+                  <!-- Desktop screen -->
+                  <source
+                    media="(min-width: 1158px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f6_desktop@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f6_desktop@2x_result.jpg 2x
+                    " />
+                  <!-- Tablet screen -->
+                  <source
+                    media="(min-width: 768px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f6_tablet@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f6_tablet@2x_result.jpg 2x
+                    " />
+                  <!-- Mobile screen -->
+                  <source
+                    media="(max-width: 767px)"
+                    srcset="
+                      ./images/hmtwo/imgimg-f6_mobile@1x_result.jpg 1x,
+                      ./images/hmtwo/imgimg-f6_mobile@2x_result.jpg 2x
+                    " />
+                  <img
+                    src="./images/hmtwo/imgimg-f6_mobile@1x_result.jpg"
+                    alt="photo10"
+                    width="360"
+                    height="300" />
+                </picture>
+
                 <p class="overlay">
                   - 14 Stylish and User-Friendly App Design Concepts · Task
                   Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App
