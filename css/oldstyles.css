@@ -154,10 +154,11 @@
   margin-bottom: 72px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.li-ourportfolio:hover {
+/* .li-ourportfolio:hover,
+.li-ourportfolio:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
+} */
 .li-ourportfolio {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -168,23 +169,24 @@
   row-gap: 48px;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
-.ourportfolio-words {
+/* .ourportfolio-words {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-}
-.ourportfolio-title {
+} */
+/* .ourportfolio-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-}
-.ourportfolio-text {
+} */
+/* .ourportfolio-text {
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+} */
 .bestellers-wrapper {
   position: relative;
   overflow: hidden;
@@ -212,10 +214,10 @@
   transform: translateY(0);
 }
 /* footer */
-.footer {
+/* .footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
+} */
 .footer .text {
   color: #f4f4fd;
   font-size: 16px;
@@ -226,29 +228,28 @@
   width: 264px;
 }
 
-.footer-container {
+/* .footer-container {
   display: flex;
   align-items: baseline;
-}
+} */
 
 /* asdddddddddddddddddddddddaaaaaa */
-.container .footer-container {
+/* .container .footer-container {
   display: flex;
   align-items: center;
-}
+} */
 
-.subscribe-form {
+/* .subscribe-form {
   display: flex;
   align-items: center;
   gap: 24px;
-}
-.subscribe-form-filed {
-}
-.subscribe-form-input {
+} */
+
+/* .subscribe-form-input {
   padding: 8px 16px;
   color: #fff;
   font-size: 12px;
-  line-height: 24px; /* 200% */
+  line-height: 24px; 
   letter-spacing: 0.48px;
   background-color: transparent;
   outline: transparent;
@@ -257,8 +258,8 @@
   border-radius: 4px;
   border: 1px solid #fff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-.subscribe-form-input::placeholder {
+} */
+/* .subscribe-form-input::placeholder {
   color: currentColor;
 }
 .subscribe-form-btn {
@@ -277,14 +278,14 @@
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px; /* 150% */
+  line-height: 24px; 
   letter-spacing: 0.64px;
   cursor: pointer;
   border: none;
 }
 .subscribe-form-icon {
   margin-left: 16px;
-}
+} */
 /* backdrop */
 .backdrop {
   position: fixed;
