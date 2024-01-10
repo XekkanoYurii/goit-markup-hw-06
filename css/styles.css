@@ -541,7 +541,7 @@ a {
   flex-wrap: wrap;
   gap: 72px;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   text-align: center;
   max-width: 264px;
   margin: 0 auto;
@@ -554,9 +554,9 @@ a {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.list-our-team > .img {
+/* .list-our-team > .img {
   width: 100%;
-}
+} */
 .our-team-words {
   padding: 32px 0;
 }
@@ -613,12 +613,14 @@ a {
     padding: 120px 0;
   }
   .ul-our-team {
+    width: 100%;
     display: flex;
     gap: 24px;
     min-width: 1158px;
     flex-wrap: nowrap;
   }
   .list-our-team {
+    max-width: 264px;
     width: calc((100% - 3 * 24px) / 4);
   }
 }
