@@ -331,7 +331,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero/peopleoffice-mobile@1x.jpg);
+    url(../images/hero/img-hero_mobile@1x.jpg);
   max-width: 320px;
 }
 .hero-title-h {
@@ -376,7 +376,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/peopleoffice-mobile@2x.jpg);
+      url(../images/hero/img-hero_mobile@2x.jpg);
   }
 }
 @media screen and (min-width: 768px) {
@@ -389,6 +389,7 @@ a {
       ),
       url(../images/hero/peopleoffice-tablet@1x.jpg);
   }
+
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx) {
@@ -397,7 +398,7 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero/peopleoffice-tablet@2x.jpg);
+        url(../images/hero/img-hero_tablet@2x.jpg);
     }
   }
   .hero-title-h {
@@ -416,7 +417,7 @@ a {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero/peopleoffice-desctop@1x.jpg);
+      url(../images/hero/img-hero_desktop@1x.jpg);
   }
   @media screen and (min-device-pixel-ratio: 2),
     screen and (min-resolution: 192dpi),
@@ -426,7 +427,7 @@ a {
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/hero/peopleoffice-desctop@2x.jpg);
+        url(../images/hero/img-hero_desktop@2x.jpg);
     }
   }
   .hero-title-h {
